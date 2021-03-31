@@ -1227,6 +1227,13 @@ footer {
   box-sizing: border-box;
 }
 
+/* CONTACT */
+.title-contact{
+    margin-bottom: 50px;
+}
+
+/* GALLERY* /
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -1252,6 +1259,27 @@ footer {
 
 .modal img {
   height: 100vh;
+}
+
+.click-img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+    transform:scale(1);
+    -ms-transform:scale(1); // IE 9 
+    -moz-transform:scale(1); // 
+}
+.click-img:hover{
+    transform:scale(0.8);
+            -ms-transform:scale(0.8); // IE 9 
+            -moz-transform:scale(0.8); // Firefox 
+            -webkit-transform:scale(0.8); // Safari and Chrome 
+            -o-transform:scale(0.8); // Opera
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            cursor: pointer;
 }
 
 .item-slide{
